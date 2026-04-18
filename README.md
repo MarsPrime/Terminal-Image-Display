@@ -1,6 +1,11 @@
 # Treminal Image Display
 This program shows image in terminal by converting pixels into symbols.
 
+## Dependences:
+- python >= 3.13
+- hexstyle >= 1.1.1
+- pillow >= 12.1.0
+  
 ## Usage
 ``` python
 python3 main.py <path_to_image>
@@ -17,3 +22,8 @@ python3 main.py <path_to_image> <crop_paramter>
 ![Example3](./example_images/image_3.png "example")
 ![Example4](./example_images/image_4.png "example")
 
+## Use case 
+I use it to display music album covers in my terminal when I take notes about them.
+
+## Future functions:
+- [ ] Show images with various aspect raito (not only 4x4)
